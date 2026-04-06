@@ -1,0 +1,308 @@
+@font-face {
+    font-family: 'Imma-typefont';
+    src: url(/fonts/Imma-typefont/Imma-Black.ttf) format(truetype);
+    src: url(/fonts/Imma-typefont/Imma-BlackItalic.ttf) format(truetype);
+    src: url(/fonts/Imma-typefont/Imma-Bold.ttf) format(truetype);
+    src: url(/fonts/Imma-typefont/Imma-BoldItalic.ttf) format(truetype) ;
+    src: url(/fonts/Imma-typefont/Imma-Light.ttf) format(truetype);
+    src: url(/fonts/Imma-typefont/Imma-LightItalic.ttf) format(truetype);
+    src: url(/fonts/Imma-typefont/Imma-Medium.ttf) format(truetype);
+    src: url(/fonts/Imma-typefont/Imma-MediumItalic.ttf) format(truetype);
+    src: url(/fonts/Imma-typefont/Imma-Regular.ttf) format(truetype);
+    src: url(/fonts/Imma-typefont/Imma-RegularItalic.ttf) format(truetype); 
+    
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+    border-radius: 150px;
+    border: 4px solid #ea8392;
+}
+
+.last .articles .arti img {
+   width: 300px;
+   height: 300px;
+   border-radius: 150px;
+   border: 4px solid #ea8392;
+   margin-top: 100px;
+   margin-bottom: 20px;
+}
+
+.benvenida h3{
+    font-family: 'QuickSand', sans-serif;
+    /*font-family: 'Federant', cursive;*/
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact h2{
+    margin-bottom: 50px;
+}
+
+.contact p {
+    font-family: 'Federant', cursive;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+input, textarea{
+    border-radius: 15px;
+    width: 300px;
+    padding: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+}
+
+input{
+    border-radius: 40px;
+    padding: 15px 20px;
+    font-size: 14px;
+}
+
+button{
+    background: linear-gradient(135deg ,#ea8392);
+    font-weight:bold;
+    color: #4a4a4a;
+    cursor: context-menu;
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+    width: 150px;
+    padding: 10px;
+}
+
+form {
+    display: block;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 130px;
+    margin: 0;
+    padding: 0;
+}
+
+.ben{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Federant', cursive;
+}
+
+nav ul li a {
+    text-decoration: darksalmon; 
+    color: #9b59b6;
+}
+
+body {
+    font-family: 'Courgette', sans-serif;
+    font-size: 20px;  
+    background-color: #f8f0fc;
+    color: #9b59b6 ;
+}
+
+.home header h2, nav{
+    text-align: center;
+}
+
+.benvenida ,.last {
+    text-align: center;
+}
+
+
+.about .perso  {  /*c'est l'image que j'ai ccentré dans la section about*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .contenu .perso img {
+  width: 200px; 
+  height: 200px; 
+  border-radius: 100px; 
+  border: 4px solid #ea8392;
+}
+
+.contenu {
+    text-align: center;
+}
+
+.home {
+    text-align: center;
+}
+
+.log {
+    text-align: center;
+}
+
+.log h2{
+    margin-bottom: 50px;
+}
+
+.log p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.cta {
+    text-align: center;
+}
+
+.cta h2 {
+    font-family: 'Courgette', cursive;
+}
+
+.cta button a {
+    text-decoration: none;
+}
+
+.rslinks {
+    margin-top: 20px;
+}
+
+.rslinks img {
+  width: 30px;
+  height: 30px;
+  margin: 0 8px;
+  border-radius: 500px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between; /* gauche/droite */
+    align-items: center;
+}
+
+main {
+    padding: 40px;
+}
+
+main h1 {
+    text-align: center;
+}
+
+.articles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 60px;
+  padding: 40px;
+  margin: 20px;
+}
+
+.carte {
+  background-color: #f9f5fc; /* léger violet pastel */
+  border: 1px solid #d3bce6;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.carte:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  gap: 210px;
+  margin: 20px;
+}
+
+.carte h2 {
+  margin-top: 20px;
+  font-size: 1.4rem;
+  color: #333;
+}
+
+.carte .date {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+main .artii {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+main.newart {
+  padding: 40px;
+  display: flex;
+  justify-content: center; 
+  align-items: flex-start;
+}
+
+main.newart .nouvel {
+  background-color: #f9f5fc; 
+  border: 1px solid #d3bce6;
+  border-radius: 12px;
+  padding: 30px;
+  width: 100%;
+  max-width: 700px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+main.newart .nouvel h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 1.8rem;
+  color: #5a2a82;
+}
+
+main.newart .nouvel form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+main.newart .nouvel input, main.newart .nouvel textarea {
+  width: 100%;
+  border: 1px solid #d3bce6;
+  border-radius: 8px;
+  padding: 12px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  transition: border-color 0.3s ease;
+}
+
+input:focus, textarea:focus {
+  border-color: #a46cd6;
+  outline: none;
+}
+
+form button {
+  display: block;
+  margin: 0 auto;
+  background-color: #e6b3f7;
+  border: none;
+  border-radius: 25px;
+  padding: 12px 25px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+form button:hover {
+  background-color: #d18be6;
+  transform: scale(1.05);
+}
