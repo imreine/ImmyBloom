@@ -1,0 +1,91 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #FFF3F7; /* rose très clair */
+    color: #4A4A4A;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FAD3E6; /* rose pastel */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Lora', serif;
+    color: #4A4A4A;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #4A4A4A;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #FFB6C1; /* rose bubblegum */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #FAD3E6;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+form button {
+    background-color: #FFB6C1;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #FAD3E6;
+    color: #4A4A4A;
+}
+
+footer {
+    background-color: #FAD3E6;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    color: #4A4A4A;
+}
+
+.logo {
+    font-family: 'Lora', serif; /* élégante et lisible */
+    font-size: 40px;
+    color: #FFB6C1; /* rose bubblegum */
+    text-shadow: 2px 2px #FAD3E6; /* ombre pastel douce */
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 12px;
+    background: linear-gradient(90deg, #FFF3F7, #FAD3E6);
+}
+
+.slogan {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    color: #888888; /* gris doux */
+    margin: 5px 0 15px 0;
+    font-style: italic;
+}
+
