@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nouvel article</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="icon" href="/styles/blog logo.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Courgette&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        <img src="/styles/blog logo.png" alt="immy" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="arti.html">Articles</a></li>
+                <li><a href="newarti.html">Nouvel article</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Se connecter</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="newart">
+        <section class="nouvel">
+            <h2>Ecrire un nouvel article 🌸</h2>
+            <form action="/submit_article" id="arti" method="post">
+                <label for="title">Titre de l'article :</label>
+                <input type="text" id="title" name="titre" required> <br> <br>
+                <label for="content">Contenu...</label>
+                <textarea name="content" id="contenu" required></textarea> <br> <br> <br>
+                <button type="submit">Publier🌸✨</button>
+            </form>
+            
+            <script>
+                const textarea = document.getElementById("contenu");
+
+               textarea.addEventListener("input", function() {
+               this.style.height = "auto";   // réinitialise la hauteur
+               this.style.height = this.scrollHeight + "px"; // ajuste selon le contenu
+             });
+           </script>
+
+        </section>
+    </main>
+    <footer>
+        <p>© 2026 ImmyBloom 🌸. Tous droits réservés.</p>
+        <div class="rslinks">
+            <a href="https://www.tiktok.com/@immybloom26?_r=1&_t=ZS-94QoeeWWgQW">
+                <img src="/styles/LogoTikTok.jpg" alt="Tiktok">
+            </a>
+            <a href="https://www.instagram.com/immyb_loom/">
+                <img src="/styles/logoInsta.jpg" alt="Instagram">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
